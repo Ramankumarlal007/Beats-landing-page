@@ -1,48 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>05_Project- Beats Landing Page</title>
-</head>
-<body class="bg-[#0f0f10]">
-    <div class="absolute my-[-150px] ml-60 overflow-hidden"><img src="./Photos/mainImage.png" alt="" ></div>
-    <nav class="flex justify-between items-center mx-auto my-10 w-4/5">
-        <img src="./Photos/beatsLogo.png" alt="">
-        
+  </head>
+  <body class="bg-[#0f0f10]">
+    <div>
+      <div class="absolute my-[-150px] ml-60 overflow-hidden">
+        <img src="./Photos/mainImage.png" alt="" />
+      </div>
+      <nav
+        class="flex justify-between items-center mx-auto my-10 w-4/5 relative"
+      >
+        <div><img src="./Photos/beatsLogo.png" alt="" /></div>
         <div>
-            <ul class="text-white font-semibold flex justify-center items-center space-x-14 text-xl">
-                <li>Home</li>
-                <li>Specs</li>
-                <li>Case</li>
-                <li>Products</li>
-            </ul>
+          <ul
+            class="text-white font-semibold flex justify-center items-center space-x-14 text-xl"
+          >
+            <li>Home</li>
+            <li>Specs</li>
+            <li>Case</li>
+            <li>Products</li>
+          </ul>
         </div>
-        <button class="bg-[#242B2E] px-16 py-5 rounded-md text-white mr-52" type="submit">Shop</button>
-    </nav>
-    <div class="grid grid-cols-1 relative ml-[65%]">
-        <img src="./Photos/onEar.png" alt="">
-        <h1 class="text-white text-8xl relative mr-20">Beats 3</h1>
-        <h2 class="text-white text-xl">Overview</h2>
-        <p class="text-slate-400 w-[45%]">Enjoy award-winning Beats sound with wireless listening freedom and a sleek, streamlined design with comfortable padded earphones, delivering first-rate playback.</p>
-      <button class="bg-slate-700 px-12 py-5 rounded-lg">
-       
-        <div class="text-white flex space-x-8">
-            <div>
-                <img src="./Icons/shoppingBag.png" alt="">
-            </div>
-            <div>
-                <p>Add to Bag</p>
-            </div>
-            <div>
-                <h2>N399K</h2>
-            </div>
+        <button
+          class="bg-[#242B2E] px-16 py-5 rounded-md text-white mr-52"
+          type="submit"
+        >
+          Shop
+        </button>
+      </nav>
+
+      <div class="float-right">
+        <div class="rightSide grid ml-10">
+          <img src="./Photos/onEar.png" alt="" width="550px" />
         </div>
-    </button>
-       
+        <div class="grid space-y-11 mr-16">
+          <h1 class="text-white text-9xl relative mr-20 font-medium">
+            Beats 3
+          </h1>
+          <h2 class="text-white text-2xl font-medium">Overview</h2>
+          <p class="text-slate-400 w-[45%] leading-9 text-lg">
+            Enjoy award-winning Beats sound with wireless listening freedom and
+            a sleek, streamlined design with comfortable padded earphones,
+            delivering first-rate playback.
+          </p>
+
+          <div>
+            <button>
+              <div
+                class="text-white space-x-8 bg-[#28282B] inline-flex px-14 py-6 rounded-lg"
+              >
+                <div>
+                  <img src="./Icons/shoppingBag.png" alt="" />
+                </div>
+                <div>
+                  <p>Add to Bag</p>
+                </div>
+                <div>
+                  <h2>N399K</h2>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-evenly mt-[40%] pb-[15%]">
+        <div>
+          <img src="./Photos/appleLogo.png" alt="" srcset="" width="120px" />
+        </div>
+        <div>
+          <img src="./Photos/spotifyLogo.png" alt="" srcset="" width="120px" />
+        </div>
+        <div>
+          <img src="./Photos/amazonLogo.png" alt="" srcset="" width="120px" />
+        </div>
+        <div>
+          <img src="./Photos/youtubeLogo.png" alt="" srcset="" width="120px" />
+        </div>
+      </div>
     </div>
-  
-</body>
+
+    <div class="Specs mb-24">
+      <img class="mx-auto" src="./Icons/specsLogo.png" alt="" srcset="" />
+    </div>
+    <div class="Specs flex justify-center items-center mb-40 space-x-6">
+      <div class="leftSpecs space-y-8">
+        <div class="relative ml-10">
+          <img src="./Icons/bluetooth.png" alt="" srcset="" />
+          <h1 class="text-white">Connection</h1>
+          <p class="text-gray-400 text-xl">Bluetooth v5.2</p>
+        </div>
+        <div>
+          <img src="./Icons/battery.png" alt="" srcset="" />
+          <h1 class="text-white">Battery</h1>
+          <p class="text-gray-400 text-xl">Duration 40h</p>
+        </div>
+        <div>
+          <img src="./Icons/bluetooth.png" alt="" srcset="" />
+          <h1 class="text-white">Load</h1>
+          <p class="text-gray-400 text-xl">Fast charge 4.2-AAC</p>
+        </div>
+        <div class="relative ml-10">
+          <img src="./Icons/bluetooth.png" alt="" srcset="" />
+          <h1 class="text-white">Microphone</h1>
+          <p class="text-gray-400 text-xl">Supports Apple Siri and Google</p>
+        </div>
+      </div>
+      <div class="rightSpecs">
+        <img src="./Photos/specsImage.png" alt="" srcset="" />
+      </div>
+    </div>
+
+    <div class="Case mb-40">
+      <div>
+        <img class="mx-auto" src="./Icons/caseLogo.png" alt="" />
+      </div>
+      <div class="flex justify-center items-center gap-20 ml-[20%]">
+        <div class="leftCaseImage">
+          <img src="./Photos/caseImage.png" alt="" srcset="" />
+        </div>
+        <div class="rightside text-white mt-32">
+          <p class="leading-9 w-[30%] text-xl pb-12">
+            With a comfortable and adaptable case so that you can store it
+            whenever you want, and keep your durability forever.
+          </p>
+          <button class="px-10 my-5 py-5 bg-slate-800 rounded-lg">
+            <div class="flex justify-center items-center gap-4">
+              <img src="./Icons/group.png" alt="" srcset="" />
+              <p>More Info</p>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="Immerse text-white bg-[#28282B] flex justify-center items-center gap-40 mb-15 py-20 mx-[25%] rounded-xl"
+    >
+      <div class="left w-[35%] flex-col space-y-5">
+        <h1 class="text-4xl">Immerse yourself in your music</h1>
+        <p class="text-lg text-slate-200">Buy Now, up to 40% off.</p>
+        <button
+          class="bg-black flex justify-center items-center gap-6 px-6 py-5 rounded-lg"
+          type="submit"
+        >
+          <img src="./Icons/shoppingBag.png" alt="" srcset="" />
+          <p>Buy now</p>
+        </button>
+      </div>
+      <div class="right">
+        <img src="./Photos/buyNowSectionImage.png" alt="" srcset="" />
+      </div>
+    </div>
+
+    <div class="Style mb-60">
+        <img class="mx-auto" src="./Icons/productLogo.png" alt="" srcset="">
+    </div>
+    <div class="grid grid-cols-3 mb-48 gap-4 justify-items-center space-y-9 space-x-4 x">
+        <div class="firstIcon bg-[#28282B] inline-block w-1/2">
+            <div class="relative mt-[-14%]">
+                <img  src="./Photos/black.png" alt="">
+            </div>
+           <div class="inline-block">
+            <div class="flex justify-center items-center mx-4 text-xl font-semibold gap-20"  >
+                <p class="text-white">Black <span>N299K</span></p>
+                
+                <button class="bg-red-700">
+                    <img class="bg-black" src="./Icons/shoppingBag.png" alt="" srcset="">
+                </button>
+            </div>
+            <div>
+                
+            </div>
+           </div>
+        </div> <div class="firstIcon bg-[#28282B] inline-block w-1/2 ">
+            <div class="relative mt-[-14%]">
+                <img  src="./Photos/black.png" alt="">
+            </div>
+           <div class="inline-block">
+            <div class="flex justify-center items-center mx-4 text-xl font-semibold gap-20"  >
+                <p class="text-white">Black <span>N299K</span></p>
+                
+                <button class="bg-red-700">
+                    <img class="bg-black" src="./Icons/shoppingBag.png" alt="" srcset="">
+                </button>
+            </div>
+            <div>
+                
+            </div>
+           </div>
+        </div> <div class="firstIcon bg-[#28282B] inline-block w-1/2">
+            <div class="relative mt-[-14%]">
+                <img  src="./Photos/black.png" alt="">
+            </div>
+           <div class="inline-block">
+            <div class="flex justify-center items-center mx-4 text-xl font-semibold gap-20"  >
+                <p class="text-white">Black <span>N299K</span></p>
+                
+                <button class="bg-red-700">
+                    <img class="bg-black" src="./Icons/shoppingBag.png" alt="" srcset="">
+                </button>
+            </div>
+            <div>
+                
+            </div>
+           </div>
+        </div> <div class="firstIcon bg-[#28282B] inline-block w-1/2">
+            <div class="relative mt-[-14%]">
+                <img  src="./Photos/black.png" alt="">
+            </div>
+           <div class="inline-block">
+            <div class="flex justify-center items-center mx-4 text-xl font-semibold gap-20"  >
+                <p class="text-white">Black <span>N299K</span></p>
+                
+                <button class="bg-red-700">
+                    <img class="bg-black" src="./Icons/shoppingBag.png" alt="" srcset="">
+                </button>
+            </div>
+            <div>
+                
+            </div>
+           </div>
+        </div> <div class="firstIcon bg-[#28282B] inline-block w-1/2">
+            <div class="relative mt-[-14%]">
+                <img  src="./Photos/black.png" alt="">
+            </div>
+           <div class="inline-block">
+            <div class="flex justify-center items-center mx-4 text-xl font-semibold gap-20"  >
+                <p class="text-white">Black <span>N299K</span></p>
+                
+                <button class="bg-red-700">
+                    <img class="bg-black" src="./Icons/shoppingBag.png" alt="" srcset="">
+                </button>
+            </div>
+            <div>
+                
+            </div>
+           </div>
+        </div> 
+
+        <div class="secondIcon"></div>
+        <div class="thirdIcon"></div>
+        <div class="fourthIcon"></div>
+        <div class="fifthIcon"></div>
+    </div>
+
+
+
+  </body>
 </html>
